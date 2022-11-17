@@ -1,0 +1,208 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>truKart.com | Online Book Store Website</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="{% static 'assets/bootstrap/css/bootstrap.min.css' %}" />
+	<link rel="stylesheet" href="{% static 'assets/css/main.css' %}" />
+	<noscript>
+		<link rel="stylesheet" href="{% static 'assets/css/noscript.css' %}" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<div class="inner">
+
+				<!-- Logo -->
+				<a href="/" class="logo">
+					<span class="fa fa-book"></span> <span class="title">Book Online Store Website</span>
+				</a>
+
+				<!-- Nav -->
+				<nav>
+					<ul>
+						<li><a href="#menu">Menu</a></li>
+					</ul>
+				</nav>
+
+			</div>
+		</header>
+
+		<!-- Menu -->
+		<nav id="menu">
+			<h2>Menu</h2>
+			<ul>
+				<li><a href="/">Home</a></li>
+
+				<li><a href="/products">Products</a></li>
+
+				<li><a href="/checkout">Checkout</a></li>
+
+				<li>
+					<a href="#" class="dropdown-toggle">About</a>
+
+					<ul>
+						<li><a href="/about" class="active">About Us</a></li>
+						<li><a href="/blog">Blog</a></li>
+						<li><a href="/testimonials">Testimonials</a></li>
+						<li><a href="/terms">Terms</a></li>
+					</ul>
+				</li>
+
+				<li><a href="/contact">Contact Us</a></li>
+			</ul>
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+			<div class="inner">
+				<h1>Checkout</h1>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="inner">
+				<section>
+					<form method="post" action="#">
+						<div class="fields">
+							<div class="field half">
+								<select>
+									<option value="">-- Choose Title--</option>
+									<option value="dr">Dr.</option>
+									<option value="miss">Miss</option>
+									<option value="mr">Mr.</option>
+									<option value="mrs">Mrs.</option>
+									<option value="ms">Ms.</option>
+									<option value="other">Other</option>
+									<option value="prof">Prof.</option>
+									<option value="rev">Rev.</option>
+								</select>
+							</div>
+
+							<div class="field half">
+								<input type="text" name="field-2" id="field-2" placeholder="Name">
+							</div>
+
+							<div class="field half">
+								<input type="text" name="field-3" id="field-3" placeholder="Email">
+							</div>
+
+							<div class="field half">
+								<input type="text" name="field-4" id="field-4" placeholder="Phone">
+							</div>
+
+							<div class="field half">
+								<input type="text" name="field-5" id="field-5" placeholder="Address 1">
+							</div>
+
+							<div class="field half">
+								<input type="text" name="field-6" id="field-6" placeholder="Address 2">
+							</div>
+
+							<div class="field half">
+								<input type="text" name="field-7" id="field-7" placeholder="City">
+							</div>
+
+							<div class="field half">
+								<input type="text" name="field-8" id="field-8" placeholder="State">
+							</div>
+
+							<div class="field half">
+								<input type="text" name="field-7" id="field-7" placeholder="Zip">
+							</div>
+
+							<div class="field half">
+								<select>
+									<option value="">-- Choose Country--</option>
+									<option value="">-- Choose Country --</option>
+									<option value="">-- Choose Country --</option>
+									<option value="">-- Choose Country --</option>
+								</select>
+							</div>
+
+							<div class="field half">
+
+								<select>
+									<option value="">-- Choose Payment Method--</option>
+									<option value="">-- Choose Payment Method--</option>
+									<option value="">-- Choose Payment Method--</option>
+									<option value="">-- Choose Payment Method--</option>
+								</select>
+							</div>
+
+							<div class="field half">
+								<input type="text" name="field-9" id="field-9" placeholder="Captcha">
+							</div>
+
+							<div class="field">
+								<div>
+									<input type="checkbox" id="checkbox-4">
+
+									<label for="checkbox-4">
+										I agree with the <a href="terms.html" target="_blank">Terms &amp; Conditions</a>
+									</label>
+								</div>
+							</div>
+
+
+							<div class="field half text-right">
+								<ul class="actions">
+									<li><input type="submit" value="Finish" class="primary"></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+				</section>
+				<section>
+					<h2>Contact Info</h2>
+
+					<ul class="alt">
+						<li><span class="fa fa-envelope-o"></span> <a href="#">contact@company.com</a></li>
+						<li><span class="fa fa-phone"></span> +91 992 5250 892 </li>
+						<li><span class="fa fa-map-pin"></span>
+							23 New Ratnakar society part 1
+							oppo. Annapurna farm
+							Gayatri mandir road
+							Ranip, Ahmedabad 382480 ,Gujarat state of India</li>
+					</ul>
+
+					<h2>Follow Us</h2>
+
+					<ul class="icons">
+						<li><a href="https://twitter.com/trushit666" class="icon style2 fa-twitter"><span
+									class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/trushit.patel.501/" class="icon style2 fa-facebook"><span
+									class="label">Facebook</span></a></li>
+						<li><a href="https://www.instagram.com/_truxxhit/" class="icon style2 fa-instagram"><span
+									class="label">Instagram</span></a></li>
+						<li><a href="https://www.linkedin.com/in/trushitpatel/" class="icon style2 fa-linkedin"><span
+									class="label">LinkedIn</span></a></li>
+					</ul>
+				</section>
+
+				<ul class="copyright">
+					<li>Copyright © 2020 truKart.com</li>
+				</ul>
+			</div>
+		</footer>
+
+	</div>
+
+    <!-- Scripts -->
+    <script src="{% static 'assets/js/jquery.min.js' %}"></script>
+    <script src="{% static 'assets/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'assets/js/jquery.scrolly.min.js' %}"></script>
+    <script src="{% static 'assets/js/jquery.scrollex.min.js' %}"></script>
+    <script src="{% static 'assets/js/main.js' %}"></script>
+</body>
+
+</html>

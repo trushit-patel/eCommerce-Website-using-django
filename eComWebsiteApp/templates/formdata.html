@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<style>
+
+    .formdatacontainer{
+        border:2px solid #f2849e;
+        border-radius: 10px;
+        width: 80%;
+        padding: 20px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    label{
+        font-weight: bold;
+        display: inline;
+        margin-right: 5px;
+    }
+    p{
+        margin: 10px;
+    }
+    .counter{
+        font-weight: 800;
+
+    }
+</style>
+{% for person in myproduct %}
+<div class="formdatacontainer">
+    <p><label class="counter">{{ forloop.counter }}.</label>Message from</p>
+    <p><label>Name:</label>{{ person.name }}</p>
+    <p><label>Email:</label>{{ person.Email }}</p>
+    <p><label>Subject:</label> Number:{{ person.subject }}</p>
+    <p><label>Message:</label>{{ person.message}}</p>
+</div>
+{% endfor %}
+
+{% endblock %}
